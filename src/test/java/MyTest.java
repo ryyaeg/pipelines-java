@@ -1,14 +1,7 @@
-import com.microsoft.demo.Demo;
-import org.junit.Test;
+package sample.gradle;
 
-public class MyTest {
-    @Test
-    public void test_method_1() {
-        Demo d = new Demo();
-        d.DoSomething(true);
-    }
-
-    @Test
-    public void test_method_2() {
+public class GradleMain {
+    public static void main(String[] args) {
+        System.out.println("Hello Gradle!!");
     }
 }
