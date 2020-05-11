@@ -15,7 +15,6 @@ steps:
     workingDirectory: ''
     gradleWrapperFile: 'gradlew'
     gradleOptions: '-Xmx3072m'
-    codeCoverageToolOption: 'JaCoCo'
     publishJUnitResults: true
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
