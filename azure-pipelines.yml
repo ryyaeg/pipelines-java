@@ -15,8 +15,6 @@ steps:
     workingDirectory: ''
     gradleWrapperFile: 'gradlew.bat'
     gradleOptions: '-Xmx3072m'
-    codeCoverageToolOption: JaCoCo
-    codeCoverageClassFilesDirectories: 'build/classes/main'
     publishJUnitResults: true
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
