@@ -19,7 +19,9 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: 'default'
     jdkArchitectureOption: 'x64'
-    testResultsFiles: '**/TEST-*.xml'
-    codeCoverageTool: 'JaCoCo'
-    classFilesDirectories: 'build/classes/main/'
     tasks: 'build'
+
+- task: PublishCodeCoverageResults@1
+  inputs:
+    codeCoverageTool: 'JaCoCo'
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/MyApp/**/site/cobertura/coverage.xml'
