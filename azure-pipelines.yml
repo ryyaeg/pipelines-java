@@ -20,10 +20,9 @@ steps:
     jdkVersionOption: 'default'
     jdkArchitectureOption: 'x64'
     tasks: 'build'
-    options: '--report JaCoCo'
 
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: 'JaCoCo'
-    summaryFileLocation: '$(System.DefaultWorkingDirectory)/MyApp/**/site/cobertura/coverage.xml'
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/*coverage.xml'
     failIfCoverageEmpty: true
