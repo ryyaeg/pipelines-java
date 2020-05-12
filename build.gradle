@@ -1,17 +1,6 @@
 apply plugin: 'java'
 
 apply plugin: 'jacoco'
-jacoco {
-  toolVersion = '0.7.9'
-  applyTo junitPlatformTest
-}
-
-junitPlatformTest {
-  jacoco {
-    destinationFile = file("${buildDir}/jacoco/test.exec")
-  }
-}
-
 
 
 jacocoTestReport {
