@@ -1,12 +1,1 @@
 apply plugin: 'java'
-apply plugin: 'jacoco'
-jacocoTestReport {
-    group = "Reporting"
-    description = "Generate Jacoco coverage reports after running tests."
-    reports {
-        xml.enabled false
-        csv.enabled false
-        html.destination "${buildDir}/reports/jacoco"
-        sourceSets sourceSets.main
-    }
-}
