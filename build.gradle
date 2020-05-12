@@ -1,8 +1,2 @@
 apply plugin: 'java'
 apply plugin: 'jacoco'
-
-jacocoTestReport {
-    reports {
-        xml.enabled = true
-    }
-}
