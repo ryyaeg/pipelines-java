@@ -20,6 +20,7 @@ steps:
     jdkVersionOption: 'default'
     jdkArchitectureOption: 'x64'
     tasks: 'build'
+    options: 'JaCoCo'
 
 - task: PublishCodeCoverageResults@1
   inputs:
