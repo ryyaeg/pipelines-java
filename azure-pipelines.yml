@@ -16,8 +16,6 @@ steps:
     gradleWrapperFile: 'gradlew'
     gradleOptions: '-Xmx3072m'
     publishJUnitResults: true
-    codeCoverageToolOption: JaCoCo
-    codeCoverageClassFilesDirectories: ''
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: 'default'
     jdkArchitectureOption: 'x64'
