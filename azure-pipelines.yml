@@ -25,4 +25,5 @@ steps:
   inputs:
     codeCoverageTool: 'JaCoCo'
     summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/*SampleTest.xml'
+    pathToSources: '**/src/test/java/com/example/'
     failIfCoverageEmpty: true
