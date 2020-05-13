@@ -25,3 +25,4 @@ steps:
   inputs:
     codeCoverageTool: 'JaCoCo'
     summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/*coverage.xml'
+    failIfCoverageEmpty: true
