@@ -24,6 +24,5 @@ steps:
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: 'JaCoCo'
-    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/*Sample.xml'
-    pathToSources: '**/src/test/java/com/example/'
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/jacoco.xml'
     failIfCoverageEmpty: true
