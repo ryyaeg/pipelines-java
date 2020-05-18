@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.SampleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-14T05:30:27" hostname="fv-az38" time="0.003">
-  <properties></properties>
-  <testcase name="testAdd" classname="com.example.SampleTest" time="0.003"></testcase>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
